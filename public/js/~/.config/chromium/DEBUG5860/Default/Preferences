@@ -1,0 +1,55 @@
+{
+   "browser": {
+      "window_placement_localhost_/debug/": {
+         "bottom": 1060,
+         "left": 65,
+         "maximized": false,
+         "right": 977,
+         "top": 24,
+         "work_area_bottom": 1080,
+         "work_area_left": 65,
+         "work_area_right": 1920,
+         "work_area_top": 24
+      }
+   },
+   "countryid_at_install": 21843,
+   "default_apps_install_state": 1,
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://localhost:8082/", [ "http://localhost:8082/", 5.576582199999999 ] ] ],
+      "startup_list": [ 1, "http://localhost:8082/" ]
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "12987655077545698"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "app_launcher_ordinal": "n",
+            "page_ordinal": "n"
+         }
+      }
+   },
+   "homepage": "http://www.google.com/",
+   "homepage_is_newtabpage": false,
+   "http_throttling": {
+      "enabled": true
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "enabled_nacl": true
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": true,
+      "name": "First user"
+   }
+}

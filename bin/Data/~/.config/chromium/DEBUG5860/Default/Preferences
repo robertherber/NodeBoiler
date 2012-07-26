@@ -1,0 +1,132 @@
+{
+   "browser": {
+      "window_placement_localhost_/debug/": {
+         "bottom": 1060,
+         "left": 190,
+         "maximized": false,
+         "right": 1102,
+         "top": 24,
+         "work_area_bottom": 1080,
+         "work_area_left": 65,
+         "work_area_right": 1920,
+         "work_area_top": 24
+      }
+   },
+   "countryid_at_install": 21843,
+   "default_apps_install_state": 1,
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://localhost:8082/", [ "http://localhost:8082/", 21.33147524476344 ] ] ],
+      "startup_list": [ 1, "http://localhost:8082/" ]
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "12987615624181457"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_permissions": {
+               "api": [ "appNotifications", "management", "webstorePrivate" ]
+            },
+            "app_launcher_ordinal": "n",
+            "page_ordinal": "n"
+         }
+      }
+   },
+   "homepage": "http://www.google.com/",
+   "homepage_is_newtabpage": false,
+   "http_throttling": {
+      "enabled": true
+   },
+   "ntp": {
+      "promo_build": 4,
+      "promo_closed": false,
+      "promo_end": 1338933540.0,
+      "promo_feature_mask": 0,
+      "promo_group": 67,
+      "promo_group_max": 99,
+      "promo_group_timeslice": 0,
+      "promo_is_logged_in_to_plus": false,
+      "promo_line": "We\u2019ve remodeled! \u003Ca href=\"https://support.google.com/chromeos/?p=ntp19\"\u003ELearn more about the latest features\u003C/a\u003E on your Chromebook.",
+      "promo_platform": 8,
+      "promo_resource_cache_update": "1343139610.809754",
+      "promo_start": 1338321600.0,
+      "promo_views": 0,
+      "promo_views_max": 20
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "enabled_nacl": true,
+      "last_internal_directory": "/usr/lib/chromium-browser",
+      "plugins_list": [ {
+         "enabled": true,
+         "name": "Remoting Viewer",
+         "path": "internal-remoting-viewer",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Remoting Viewer"
+      }, {
+         "enabled": true,
+         "name": "Shockwave Flash",
+         "path": "/usr/lib/flashplugin-installer/libflashplayer.so",
+         "version": "11.2 r202"
+      }, {
+         "enabled": true,
+         "name": "Flash"
+      }, {
+         "enabled": true,
+         "name": "iTunes Application Detector",
+         "path": "/usr/lib/mozilla/plugins/librhythmbox-itms-detection-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "iTunes Application Detector"
+      }, {
+         "enabled": true,
+         "name": "VLC Multimedia Plugin (compatible Totem 3.0.1)",
+         "path": "/usr/lib/mozilla/plugins/libtotem-cone-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "VLC Multimedia Plugin (compatible Totem 3.0.1)"
+      }, {
+         "enabled": true,
+         "name": "DivX\u00AE Web Player",
+         "path": "/usr/lib/mozilla/plugins/libtotem-mully-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "DivX\u00AE Web Player"
+      }, {
+         "enabled": true,
+         "name": "Windows Media Player Plug-in 10 (compatible; Totem)",
+         "path": "/usr/lib/mozilla/plugins/libtotem-gmp-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Windows Media Player Plug-in 10 (compatible; Totem)"
+      }, {
+         "enabled": true,
+         "name": "QuickTime Plug-in 7.6.6",
+         "path": "/usr/lib/mozilla/plugins/libtotem-narrowspace-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "QuickTime Plug-in 7.6.6"
+      } ]
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": true,
+      "name": "First user"
+   }
+}
