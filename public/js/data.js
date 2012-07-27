@@ -29,23 +29,23 @@ var Data = {
 	},
 	init : function(){
 		Data.blogPosts = new Data.Models.BlogPostCollection();
-		Data.blogPosts.add(new Data.Models.BlogPost({'title' : 'First item'}));
+		//Data.blogPosts.add(new Data.Models.BlogPost({'title' : 'First item'}));
 		socket.data.onAdd = function(collectionName, data){
 			var collection = Data[collectionName];
-			treatIndividually(data, function(){
+			treatIndividually(data, function(data){
 				collection.add(new collection.model(data));
 			});
 		};
 		socket.data.onRemove = function(collectionName, data){
 			var collection = Data[collectionName];
-			treatIndividually(data, function(){
+			treatIndividually(data, function(data){
 				var element = collection.filter(function(item){ return item.get('uid') == data.uid;})[0];
 				collection.remove(element);
 			});
 		};
 		socket.data.onChange = function(collectionName, data){
 			var collection = Data[collectionName];
-			treatIndividually(data, function(){
+			treatIndividually(data, function(data){
 				//var element = collection.at(collection._byCid[data.cid] || collection.indexOf(data.uid));
 				var element = collection._byCid[data.cid] || collection.filter(function(item){ return item.get('uid') == data.uid;})[0];
 				element.set(data);
@@ -59,7 +59,7 @@ var treatIndividually = function(data, callback){
 		_.each(data, callback);
 	}
 	else{
-		callback();
+		callback(data);
 	}
 };
 

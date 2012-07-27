@@ -15,7 +15,7 @@
    "countryid_at_install": 21843,
    "default_apps_install_state": 1,
    "dns_prefetching": {
-      "host_referral_list": [ 2, [ "http://localhost:8082/", [ "http://localhost:8082/", 27.802052551776722 ] ] ],
+      "host_referral_list": [ 2, [ "http://localhost:8082/", [ "http://localhost:8082/", 28.272027773965494 ] ] ],
       "startup_list": [ 1, "http://localhost:8082/" ]
    },
    "download": {
@@ -23,11 +23,11 @@
    },
    "extensions": {
       "autoupdate": {
-         "last_check": "12987655910773599",
-         "next_check": "12987675333677666"
+         "last_check": "12987896026023723",
+         "next_check": "12987915082076792"
       },
       "blacklistupdate": {
-         "lastpingday": "12987586796330083",
+         "lastpingday": "12987845987849743",
          "version": "0.0.0.116"
       },
       "chrome_url_overrides": {
@@ -820,7 +820,7 @@
       "promo_is_logged_in_to_plus": false,
       "promo_line": "We\u2019ve remodeled! \u003Ca href=\"https://support.google.com/chromeos/?p=ntp19\"\u003ELearn more about the latest features\u003C/a\u003E on your Chromebook.",
       "promo_platform": 8,
-      "promo_resource_cache_update": "1343134631.034119",
+      "promo_resource_cache_update": "1343331840.480176",
       "promo_start": 1338321600.0,
       "promo_views": 0,
       "promo_views_max": 20

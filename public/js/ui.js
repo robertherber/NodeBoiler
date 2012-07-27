@@ -1,7 +1,8 @@
 var UI = {
 	Templates : {
-		BlogPost : _.template("<%= title %>"),
-		BlogPostCollection : _.template("<ul><% _.each(items, function(item) { %><li><%= itemTemplate(item) %></li><% }) %></ul>")
+		/*BlogPost : _.template("<article><header><h2><%= title %></h2><p><%= body %></p><p><%= date %></p></article>"),*/
+		BlogPost : _.template("<article><header><h2><%= title %></h2><p>body</p><p>date</p></article>"),
+		BlogPostCollection : _.template("<ul><% _.each(items, function(item) { %><%= itemTemplate(item) %><% }) %></ul>")
 	},
 	Views : {
 		Collection : Backbone.View.extend({
@@ -36,7 +37,7 @@ var UI = {
 		this.blogPostsView = new UI.Views.Collection({
 			template: UI.Templates.BlogPostCollection,
 			itemTemplate: UI.Templates.BlogPost,
-			el: document.querySelector('#bloglist'),
+			el: document.querySelector('#articles'),
 			data: Data.blogPosts
 		});
 	}
